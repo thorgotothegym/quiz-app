@@ -9,7 +9,7 @@ function App () {
       <div />
       <h1>Vite + React</h1>
       <div className='card'>
-        <h1 className='text-3xl font-bold underline'>
+        <h1 className='text-3xl font-bold underline font-custom'>
           Hello world!
         </h1>
         <button onClick={() => setCount((count) => count + 1)}>
