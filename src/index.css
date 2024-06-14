@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
   @layer base {
     :root {
@@ -64,27 +65,11 @@
       --input: 217.2 32.6% 17.5%;
       --ring: 212.7 26.8% 83.9%;
     }
-  }
-
-  @layer base {
-    * {
-      @apply border-border;
-    }
     body {
-      @apply m-0 font-custom font-normal leading-6 text-sm text-left;
+      @apply m-0 font-normal leading-6 text-sm text-left;
       color: white;
       color: #525f7f;
       background-color: #1e1e2f;
     }
-    h2 {
-      color: #9a9a9a;
-    }
     
-    h4 {
-      color: #e14eca
-    }
-    
-    .superCard {
-      color: #222a42;
-    }
   }
